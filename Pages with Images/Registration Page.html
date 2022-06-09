@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<style>
+    body {
+        background-color: rgb(248, 234, 213);
+    }
+    .form {
+        width: 610px;
+        height: 540px;
+        background-color: rgb(202, 27, 4);
+        margin: auto;
+        position: relative;
+        top: 25px;
+        padding-left: 300px;
+        padding-top: 50px;
+        padding-right: -20px;
+        border: 2px solid black;
+        border-radius: 2%;
+    }
+    fieldset {
+        position: relative;
+        left: -150px;
+        padding-left: 100px;
+        margin-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    button {
+        position: relative;
+        left: 150px;
+    }
+</style>
+<html>
+    <head>
+        <title>
+            Burgercorner.ng/registration
+        </title>
+    </head>
+    <body>
+        <div class="form">
+            <form action="\submit"> 
+                <fieldset>
+                    <legend>BURGER CORNER REGISTRATION</legend>              
+                    FIRST NAME: &nbsp &nbsp &nbsp &nbsp<input type="name" type="text"><br><br>
+                    LAST NAME: &nbsp &nbsp &nbsp &nbsp &nbsp<input type="name" type="text"><br><br>
+                    E-MAIL: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="name" type="text"><br><br>
+                    PHONE NUMBER:&nbsp<input type="name" type="text"><br><br>
+                    STATE OF ORIGIN:
+                    <select name="states_of_nigeria" id="select" size="1">
+                        <option>ABUJA FCT</option>
+                        <option>ABIA</option>
+                        <option>ADAMAWA</option>
+                        <option>AKWA IBOM</option>
+                        <option>ANAMBRA</option>
+                        <option>BAUCHI</option>
+                        <option>BAYELSA</option>
+                        <option>BENUE</option>
+                        <option>BORNO</option>
+                        <option>CROSS RIVER</option>
+                        <option>DELTA</option>
+                        <option>EBONYI</option>
+                        <option>EDO</option>
+                        <option>EKITI</option>
+                        <option>ENUGU</option>
+                        <option>GOMBE</option>
+                        <option>IMO</option>
+                        <option>JIGAWA</option>
+                        <option>KADUNA</option>
+                        <option>KANO</option>
+                        <option>KATSINA</option>
+                        <option>KEBBI</option>
+                        <option>KOGI</option>
+                        <option>KWARA</option>
+                        <option>LAGOS</option>
+                        <option>NASSARAWA</option>
+                        <option>NIGER</option>
+                        <option>OGUN</option>
+                        <option>ONDO</option>
+                        <option>OSUN</option>
+                        <option>OYO</option>
+                        <option>PLATEAU</option>
+                        <option>RIVERS</option>
+                        <option>SOKOTO</option>
+                        <option>TARABA</option>
+                        <option>YOBE</option>
+                        <option>ZAMFARA</option>
+                    </select><br><br>
+                      GENDER:
+                    <label for="Male">
+                        <input type="radio" name="Gender" value="male">
+                    </label>Male &nbsp &nbsp &nbsp
+                    <label for="Female">
+                        <input type="radio" name="Gender" value="female">
+                    </label>Female 
+                    <br><br>
+                    <input type="checkbox" id="tc" name="t and c" value="terms">
+                    <label for="t and c">I have read and agreed to all the terms and conditions.</label><br><br>
+                    <input type="checkbox" id="news" name="news" value="news">
+                    <label for="news">I would like to receive news and promotional fliers from Burger Corner.</label><br><br><br>
+                    <a href="../index.html">
+                        <button type="button" onclick="alert('Registration success!')">SUBMIT</button>
+                    </a>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

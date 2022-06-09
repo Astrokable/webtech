@@ -1,0 +1,145 @@
+<!DOCTYPE html5>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        text-align: center;
+        color: white;
+        padding-top: 2%;
+    }
+    .main {
+        width: 65%;
+        height: 640px;
+        background: rgba(240, 44, 18, 0.8);
+        border-radius: 1rem;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        width: 1.8rem;
+        height: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .whatsapp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5%;
+        position: relative;
+        right: 0.5em;
+    }
+    .facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5%;
+        position: relative;
+        right: 1.5em;
+    }
+    .twitter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5%;
+        position: relative;
+        left: 0.1em;
+    }
+    .instagram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5%;
+        position: relative;
+        left: 0.8em;
+    }
+    .gmail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5%;
+        position: relative;
+        left: 1em;
+    }
+    .text-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5%;
+        position: relative;
+        font-family: Gill Sans;
+        left: 0.1em;
+        border: none;
+        border-radius: 3%;
+    }
+    label {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        position: relative;
+        left: 0.1em;
+    }
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 39rem;
+        left: 40rem;
+        text-decoration: none;
+    }
+</style>
+<html>
+    <head>
+        <title>
+            Burgercorner.ng/contact us
+        </title>
+    </head>
+    <body>
+        <div class="main">
+            <h2>FOR MORE INFO, REACH US AT:</h2>
+            <div class="contacts">
+                <div class="whatsapp">
+                    <img src="icons8-whatsapp-48.png">
+                    <div class="whatsappno"><p>&nbsp +2348074587351</p></div>
+                </div>
+                <div class="facebook">
+                    <img src="icons8-facebook-48.png">
+                    <div class="facebookname"><p>&nbsp Burgercorner</p></div>
+                </div>
+                <div class="instagram">
+                    <img src="icons8-instagram-48.png">
+                    <div class="igname"><p>&nbsp theofficial_Burgercorner</p></div>
+                </div>
+                <div class="gmail">
+                    <img src="icons8-gmail-48.png">
+                    <div class="gmail-address"><p>&nbsp burgercorner@gmail.com</p></div>
+                </div>
+                <div class="twitter">
+                    <img src="icons8-twitter-48.png">
+                    <div class="twitter-handle"><p>&nbsp Burgercorner_official</p></div>
+                </div>
+            </div>
+            <form action="\submit">
+                <label for="questions">Enter your questions here:</label>
+                <div class="text-area">
+                    <textarea name="questions" rows="7" cols="50"></textarea>
+                </div>
+                <a href="../index.html">
+                    <button type="button" onclick="alert('Your question has been submitted!')">SUBMIT</button>
+                </a>
+            </form>
+        </div>
+    </body>
+</html>
